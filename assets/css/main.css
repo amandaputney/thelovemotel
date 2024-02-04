@@ -413,14 +413,16 @@ textarea {
 	.neon {
 		font-family: 'Neonderthaw', cursive;
 		font-size: 130px;
-		color: #FFD5FF;
+		/* color: #FFD5FF; */
+		color: #ffd5e0;
 		position: fixed;
 		top: 1%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		font-weight: 400;
 		letter-spacing: 5px;
-		text-shadow: 1px 0px 4px #FFD5FF, 2px 0px 4px #FFD5FF, 3px 0px 4px #FFD5FF, 2px 0px 3px #D42CCA, 2px 3px 15px #D42CCA, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #D42CCA, 40px 0vw 200px #D42CCA;
+		/* text-shadow: 1px 0px 4px #FFD5FF, 2px 0px 4px #FFD5FF, 3px 0px 4px #FFD5FF, 2px 0px 3px #D42CCA, 2px 3px 15px #D42CCA, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #D42CCA, 40px 0vw 200px #D42CCA; */
+		text-shadow: 1px 0px 4px #ffd5db, 2px 0px 4px #ffd5de, 3px 0px 4px #ffd5e1, 2px 0px 3px #d42c2c, 2px 3px 15px #d42c56, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #d42c56, 40px 0vw 200px #a92530;
 	}
 
 	.flicker-slow {
@@ -624,7 +626,7 @@ textarea {
 	}
 
 		#header h1 {
-			font-size: 4.35em;
+			font-size: 8em;
 			/* font-weight: 900; */
 			letter-spacing: -0.035em;
 			line-height: 1em;
@@ -788,10 +790,12 @@ textarea {
 		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
 		bottom: 0;
 		cursor: default;
-		color: black;
-		height: 6em;
+		color: rgb(88, 88, 88);
+		height: 4em;
 		left: 0;
-		line-height: 8em;
+		font-size: .8em;
+		font-family: 'Courier New', Courier, monospace;
+		line-height: 4em;
 		position: absolute;
 		text-align: center;
 		width: 100%;
