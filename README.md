@@ -1,6 +1,8 @@
 # The Love Motel
 
-## Website Redesign
+## [Live](https://amandaputney.github.io/thelovemotel)
+
+## Website Redesign :::IN PROGRESS:::
 
 ### Ring, ring… it’s your heart on the line. The Love Motel is a monthly late night radio romance talk show with love songs, relationship advice, and personals for all the lovers out there.
 
