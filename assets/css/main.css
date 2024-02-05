@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Neonderthaw&display=swap');
 @import url("fontawesome-all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap');
 
 
 html, body, div, span, applet, object,
@@ -781,7 +782,9 @@ textarea {
 
 				#header nav a span {
 					display: outside;
-					padding: 0	
+					padding: 0;	
+					font-family: 'Charm', cursive;
+					font-size: 1.3em;
 							}
 
 /* Footer */
