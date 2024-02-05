@@ -1,8 +1,10 @@
-# The Love Motel
+# The Love Motel _a radio romance talk show_
 
-## [Live](https://amandaputney.github.io/thelovemotel)
+## Website Redesign
 
-## Website Redesign :::IN PROGRESS:::
+## :::IN PROGRESS:::
+
+### [Live Link](https://amandaputney.github.io/thelovemotel)
 
 ### Ring, ring… it’s your heart on the line. The Love Motel is a monthly late night radio romance talk show with love songs, relationship advice, and personals for all the lovers out there.
 
