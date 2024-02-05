@@ -797,11 +797,11 @@ textarea {
 		bottom: 0;
 		cursor: default;
 		color: rgb(88, 88, 88);
-		height: 4em;
+		height: 3.5em;
 		left: 0;
 		font-size: .8em;
 		font-family: 'Courier New', Courier, monospace;
-		line-height: 4em;
+		line-height: 5em;
 		position: absolute;
 		text-align: center;
 		width: 100%;
