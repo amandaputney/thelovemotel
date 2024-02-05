@@ -1,4 +1,4 @@
-# The Love Motel _a radio romance talk show_
+# THE LOVE MOTEL _a radio romance talk show_
 
 ## Website Redesign
 
