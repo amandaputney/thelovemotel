@@ -252,6 +252,7 @@ textarea {
 
 		background: #f0d0e1 url("images/bg.jpg");
 		background-repeat: repeat-x;
+		background-size: cover;
 		height: 100%;
 		left: 0;
 		opacity: 1;
@@ -321,10 +322,10 @@ textarea {
 			-ms-transform: translate3d(-2250px,0,0);
 			transform: translate3d(-2250px,0,0);
 		}
-	} */ */
+	} 
 
 	#bg {
-		background-size: auto;
+		background-size: cover;
 		width: auto;
 	}
 
@@ -420,7 +421,7 @@ textarea {
 		left: 50%;
 		transform: translate(-50%, -50%);
 		font-weight: 400;
-		letter-spacing: 5px;
+		letter-spacing: 6px;
 		/* text-shadow: 1px 0px 4px #FFD5FF, 2px 0px 4px #FFD5FF, 3px 0px 4px #FFD5FF, 2px 0px 3px #D42CCA, 2px 3px 15px #D42CCA, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #D42CCA, 40px 0vw 200px #D42CCA; */
 		text-shadow: 1px 0px 4px #ffd5db, 2px 0px 4px #ffd5de, 3px 0px 4px #ffd5e1, 2px 0px 3px #d42c2c, 2px 3px 15px #d42c56, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #d42c56, 40px 0vw 200px #a92530;
 	}
@@ -627,7 +628,6 @@ textarea {
 
 		#header h1 {
 			font-size: 8em;
-			/* font-weight: 900; */
 			letter-spacing: -0.035em;
 			line-height: 1em;
 		}
@@ -879,7 +879,7 @@ textarea {
 		}
 
 		#bg {
-			background-size: 1500px auto;
+			background-size: cover;
 			width: 4500px;
 		} }
 
@@ -961,7 +961,7 @@ textarea {
 		}
 
 		#bg {
-			background-size: 750px auto;
+			background-size: cover;
 			width: 2250px;
 		} }
 
@@ -1047,14 +1047,15 @@ textarea {
 		}
 
 		#bg {
-			background-size: 300px auto;
+			background-size: cover;
 			width: 900px;
 		}
 
 	/* Header */
 
 		#header h1 {
-			font-size: 2.5em;
+			font-size: 4.5em;
+			margin-top: 2em;
 		}
 
 		#header p {
@@ -1145,12 +1146,12 @@ textarea {
 		}
 
 		#bg {
-			background-size: 412.5px auto;
-			width: 1237.5px;
+			background-size: cover;
+			/* width: 1237.5px; */
 		}
 
 	/* Header */
 
 		#header nav {
-			padding: 0 1em;
+			padding: 1em;
 		} }
