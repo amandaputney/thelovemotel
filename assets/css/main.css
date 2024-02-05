@@ -99,7 +99,7 @@ textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #d56666;
 		overflow: hidden;
 		height: 100%;
 		margin: 0;
@@ -630,6 +630,7 @@ textarea {
 			font-size: 8em;
 			letter-spacing: -0.035em;
 			line-height: 1em;
+			
 		}
 
 		#header p {
@@ -640,6 +641,7 @@ textarea {
 
 		#header nav {
 			margin: 1.5em 0 0 0;
+			padding: 3em;
 		}
 
 			#header nav li {
@@ -657,7 +659,7 @@ textarea {
 				transform: translate3d(0,0,0);
 				display: inline-block;
 				height: 5.35em;
-				line-height: 5.885em;
+				line-height: 1em;
 				opacity: 0;
 				position: relative;
 				top: 0;
@@ -747,7 +749,7 @@ textarea {
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					/* border: solid 1px #fff; */
+					border: solid 1px #fff;
 					display: block;
 					font-size: 1.75em;
 					height: 2.5em;
@@ -778,8 +780,9 @@ textarea {
 					}
 
 				#header nav a span {
-					display: none;
-				}
+					display: outside;
+					padding: 0	
+							}
 
 /* Footer */
 
@@ -1153,5 +1156,5 @@ textarea {
 	/* Header */
 
 		#header nav {
-			padding: 1em;
+			padding: .5em;
 		} }
