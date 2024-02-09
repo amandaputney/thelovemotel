@@ -251,10 +251,10 @@ textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #f0d0e1 url("images/bg.jpg");
-		background-repeat: repeat-x;
-		background-size: cover;
+		background: #f0d0e1 url("images/DonnaHoney.jpg");
+		/* background-repeat: repeat-x; */
 		height: 100%;
+		width: 100%;
 		left: 0;
 		opacity: 1;
 		position: fixed;
@@ -326,68 +326,8 @@ textarea {
 	} 
 
 	#bg {
-		background-size: cover;
+		background-size: fill;
 		width: auto;
-	}
-
-/* Overlay */
-
-	@-moz-keyframes overlay {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
-	@-webkit-keyframes overlay {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
-	@-ms-keyframes overlay {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
-	@keyframes overlay {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
-	#overlay {
-		-moz-animation: overlay 1.5s 1.5s forwards;
-		-webkit-animation: overlay 1.5s 1.5s forwards;
-		-ms-animation: overlay 1.5s 1.5s forwards;
-		animation: overlay 1.5s 1.5s forwards;
-		background-attachment: fixed, fixed;
-		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
-		background-position: top left, center center;
-		background-repeat: repeat, no-repeat;
-		background-size: auto, cover;
-		height: 100%;
-		left: 0;
-		opacity: 0;
-		position: fixed;
-		top: 0;
-		width: 100%;
 	}
 
 /* Main */
@@ -414,11 +354,11 @@ textarea {
 
 	.neon {
 		font-family: 'Neonderthaw', cursive;
-		font-size: 130px;
+		font-size: 80px;
 		/* color: #FFD5FF; */
 		color: #ffcdc5;
 		position: fixed;
-		top: 1%;
+		/* top: 50%; */
 		left: 50%;
 		transform: translate(-50%, -50%);
 		font-weight: 400;
@@ -606,10 +546,10 @@ textarea {
 	}
 
 	#header {
-		-moz-animation: header 0s 0s forwards;
-		-webkit-animation: header 0s 0s forwards;
-		-ms-animation: header 0s 0s forwards;
-		animation: header 0s 0s forwards;
+		-moz-animation: header 1s 2.25s forwards;
+		-webkit-animation: header 1s 2.25s forwards;
+		-ms-animation: header 1s 2.25s forwards;
+		animation: header 1s 2.25s forwards;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
@@ -630,6 +570,7 @@ textarea {
 
 		#header h1 {
 			font-size: 8em;
+			letter-spacing: -0.035em;
 			line-height: 1em;
 			
 		}
@@ -647,8 +588,8 @@ textarea {
 
 			#header nav li {
 				-moz-animation: nav-icons 0.1s ease-in-out forwards;
-				-webkit-animation: nav-icons 0.1s ease-in-out forwards;
-				-ms-animation: nav-icons 0.1s ease-in-out forwards;
+				-webkit-animation: nav-icons 0.5s ease-in-out forwards;
+				-ms-animation: nav-icons 0.5s ease-in-out forwards;
 				animation: nav-icons 0.5s ease-in-out forwards;
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
@@ -671,7 +612,7 @@ textarea {
 					-moz-animation-delay: 2.5s;
 					-webkit-animation-delay: 2.5s;
 					-ms-animation-delay: 2.5s;
-					animation-delay: 2s;
+					animation-delay: 1s;
 				}
 
 				#header nav li:nth-child(2) {
