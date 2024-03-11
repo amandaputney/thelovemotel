@@ -355,7 +355,7 @@ textarea {
 /* Header */
 
 	.neon {
-		font-family: 'Neonderthaw', cursive;
+		font-family: "Tilt Neon", sans-serif;
 		font-size: 10px;
 		/* color: #FFD5FF; */
 		color: #ffcdc5;
@@ -365,9 +365,21 @@ textarea {
 		transform: translate(-50%, -50%);
 		font-weight: 400;
 		letter-spacing: 3px !important;
-		/* text-shadow: 1px 0px 4px #FFD5FF, 2px 0px 4px #FFD5FF, 3px 0px 4px #FFD5FF, 2px 0px 3px #D42CCA, 2px 3px 15px #D42CCA, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #D42CCA, 40px 0vw 200px #D42CCA; */
+		text-shadow: 1px 0px 4px #FFD5FF, 2px 0px 4px #FFD5FF, 3px 0px 4px #FFD5FF, 2px 0px 3px #D42CCA, 2px 3px 15px #D42CCA, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #D42CCA, 40px 0vw 200px #D42CCA;
 		/* text-shadow: 1px 0px 4px #ffd5db, 2px 0px 4px #ffd5de, 3px 0px 4px #ffd5e1, 2px 0px 3px #d42c2c, 2px 3px 15px #d42c56, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #d42c56, 40px 0vw 200px #a92530; */
-		text-shadow: 1px 0px 4px #f80000, 2px 0px 4px #ff2f2f, 3px 0px 4px #ff0000, 2px 0px 3px #d42c2c, 2px 3px 15px #ff3d3d, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #ff1818, 40px 0vw 200px #ff0000;
+		/* text-shadow: 1px 0px 4px #f80000, 2px 0px 4px #ff2f2f, 3px 0px 4px #ff0000, 2px 0px 3px #d42c2c, 2px 3px 15px #ff3d3d, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #ff1818, 40px 0vw 200px #ff0000; */
+	}
+
+	.neon_off {
+		font-family: "Tilt Neon", sans-serif;
+		color: #585757;
+		/* font-size: 10px;
+		position: fixed;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-weight: 400;
+		letter-spacing: 3px !important; */
+		text-shadow: 1px 0px 4px #404040, 2px 0px 4px rgb(101, 99, 101), 3px 0px 4px #525252, 2px 0px 3px #464546, 2px 3px 15px #5a5959, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #3c3a3c, 40px 0vw 200px #5b5b5b;
 	}
 
 	.flicker-slow {
